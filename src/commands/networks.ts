@@ -19,7 +19,7 @@ export enum NetworkCmdName {
   XDC = "xdc",
   XDCApothem = "xdcapothem",
   HederaMainnet = "hederamainnet",
-  HederaTestnet = "hederatestnet"
+  HederaTestnet = "hederatestnet",
 }
 
 const defaultInfuraProvider =
@@ -90,7 +90,6 @@ export const supportedNetwork: {
     networkId: 295,
     networkName: "hederamainnet",
     currency: "HBAR",
- 
   },
   [NetworkCmdName.HederaTestnet]: {
     explorer: "https://hashscan.io/testnet",
