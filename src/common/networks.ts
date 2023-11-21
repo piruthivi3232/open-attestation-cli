@@ -93,14 +93,14 @@ export const supportedNetwork: {
     explorer: "https://hashscan.io/mainnet",
     provider: jsonRpcProvider("https://mainnet.hashio.io/api"),
     networkId: 295,
-    networkName: "hederamainnet",
+    networkName: NetworkCmdName.HederaMainnet,
     currency: "HBAR",
   },
   [NetworkCmdName.HederaTestnet]: {
     explorer: "https://hashscan.io/testnet",
     provider: jsonRpcProvider("https://testnet.hashio.io/api"),
     networkId: 296,
-    networkName: "hederatestnet",
+    networkName: NetworkCmdName.HederaTestnet,
     currency: "HBAR",
   },
 };
